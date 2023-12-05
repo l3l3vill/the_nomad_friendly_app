@@ -1,6 +1,21 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  if (kIsWeb) {
+    Firebase.initializeApp(
+      options: const FirebaseOptions(
+        apiKey: 'AIzaSyAnPalUwUOh8xhKSpOKFxYa1oZdRCGhwXo',
+        appId: '1:193417607156:web:2fe0822a4a639a6af22ba1',
+        messagingSenderId: '193417607156',
+        projectId: 'nomad-friendly-app',
+      ),
+    );
+  }
+
   runApp(const MyApp());
 }
 
