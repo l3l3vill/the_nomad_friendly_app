@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "193417607156",
+    "project_id": "nomad-friendly-app",
+    "storage_bucket": "nomad-friendly-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193417607156:android:861422830c0fa0e8f22ba1",
+        "android_client_info": {
+          "package_name": "com.ideafactory.flutter_projects"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdCOx7tPoJ-Z777RIoyjPe18_IK8SmNok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
